@@ -4,5 +4,5 @@ export const ColoredMessage = (props) => {
         fontsize: "20px"
     };
 
-    return <p style={contentStyle}>{props.message}></p>;
+    return <p style={contentStyle}>{props.message}</p>;
 }
